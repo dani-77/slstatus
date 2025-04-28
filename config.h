@@ -70,9 +70,9 @@ static const struct arg args[] = {
 	{ ram_perc, "[ %s%%]", NULL },
 	{ keymap, "[ %s",  NULL },
 	{ keyboard_indicators, " %s]", "(c?/n?)" },
-	{ battery_perc, "[ %s%%", "BAT1" },
-	{ battery_state, " %s",	"BAT1" },
-	{ battery_remaining, " %s]", "BAT1" },
-	//{ datetime, "%s", "%a %b %d %r" },
+	//{ battery_perc, "[ %s%%", "BAT0" },/
+	//{ battery_state, " %s",	"BAT0" },/
+	//{ battery_remaining, " %s]", "BAT0" },/
+	//{ datetime, "%s", "%a %b %d %r" },/
 	{ datetime, "[ %s]", "%A, %d/%B/%Y -  %T" },
 };
